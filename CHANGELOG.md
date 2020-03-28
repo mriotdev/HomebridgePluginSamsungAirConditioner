@@ -1,26 +1,9 @@
 # Changelog
 
-## 2.0.0 - 18.11.2018
+## 1.0.1 - 28.03.2020
 ### Added
-- Support for controlling oscillation
-### Improved
-- Improve response time by introducing local cache for AC state
-- Improve error handling
-- Improve reconnecting after power loss, networking issues etc.
-- Improve project structure
+- Support for different cooling and heating thresholds
+- Requirement: node < 10.16
 
-## 1.0.3 - 25.10.2018
-### Fixed
-- Fix for not reconnecting after socket closes
-
-## 1.0.2 - 14.10.2018
-### Fixed
-- Fix for connection error caused by too weak DH key
-
-## 1.0.1 - 09.10.2018
-### Fixed
-- Fix wrong command name in documentation
-- Fix crash during reconnection
-
-## 1.0.0 - 08.10.2018
-Initial release
+## 1.0.0 - 27.03.2020
+Initial fork
