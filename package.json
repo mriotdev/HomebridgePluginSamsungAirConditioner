@@ -1,7 +1,7 @@
 {
-  "name": "homebridge-plugin-samsung-air-conditioner",
-  "version": "2.0.0",
-  "description": "Homebridge plugin for controlling Samsung Air Conditioners working on port 2878",
+  "name": "homebridge-samsung-aircon-auto",
+  "version": "1.0.1",
+  "description": "Homebridge plugin for controlling Samsung Air Conditioners working on port 2878 - handling auto thermal window",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,12 +14,14 @@
     "ac",
     "2878"
   ],
-  "homepage": "https://github.com/SebastianOsinski/HomebridgePluginSamsungAirConditioner",
+  "homepage": "https://github.com/mriotdev/HomebridgeSamsungAircon",
+  "bugs": "https://github.com/mriotdev/HomebridgeSamsungAircon/issues",
   "engines": {
-    "node": ">=0.8",
+    "node": ">=0.8 <10.16",
     "homebridge": ">=0.1"
   },
-  "author": "Sebastian Osiński",
+  "author": "Carovita",
+  "email" : "mr.iotdev@gmail.com",
   "license": "MIT",
   "dependencies": {
     "carrier": "^0.3.0",
@@ -27,6 +29,6 @@
     "shortid": "^2.2.13"
   },
   "bin": {
-    "homebridge-samsung-ac-get-token": "bin/ac-get-token.js"
+    "homebridge-samsung-aircon-get-token": "bin/ac-get-token.js"
   }
 }
