@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-samsung-aircon-auto",
+  "name": "homebridge-samsung-aircon",
   "version": "1.0.1",
   "description": "Homebridge plugin for controlling Samsung Air Conditioners working on port 2878 - handling auto thermal window",
   "main": "index.js",
