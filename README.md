@@ -82,7 +82,7 @@ $ sudo systemctl start homebridge.service
 ### Installation
 Clone the repo
 ```bash
-$ git clone 
+$ git clone https://github.com/mriotdev/HomebridgeSamsungAircon.git
 ```
 and install by running 
 ```bash
